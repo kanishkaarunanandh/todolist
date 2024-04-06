@@ -62,3 +62,25 @@ button:active{
     border-radius: 5px;
   }
   
+  @media only screen and (max-width: 600px) {
+   
+    .type > .input input {
+        width: 250px; /* Adjust input width for smaller screens */
+    }
+
+    .type > .input button {
+        width: 100px; /* Adjust button width for smaller screens */
+    }
+    .logo img {
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+      }
+    
+      .input img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+      }
+}
+
